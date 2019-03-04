@@ -5,25 +5,23 @@
 <title>מיכאל מיכאלשוילי</title>
 </head>
 <body>
-<div id="menu">
-<li><a href="#about">About Me</a></li>
-<li><a href="#photos">My Photos</a></li>
-<li><a href="#playlist">My Playlist</a></li>
-<li><a href="#like">Like</a></li>
-<li><a href="#qrcoder">QR code</a></li>
-<li><a href="#spa">Q&A</a></li>
-<li><a href="#contact">Contact Me</a></li>
+<div id="menu" align="center" >
+<a href="#about">About Me</a> | 
+<a href="#photos">My Photos</a> | 
+<a href="#playlist">My Playlist</a> | 
+<a href="#like">Like</a> | 
+<a href="#qrcoder">QR code</a> | 
+<a href="#spa">Q&A</a> | 
+<a href="#contact">Contact Me</a>
+<img src="לוגו.jpg" height="70" width="100" align="left" id="logo"> 
 </div>
+
 		  
 <section id="about" class="section">
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<h1>קצת עלי</h1>
+<h1 align="center">קצת עלי</h1>
+<center>
 היי,
 <br/> 
 אני מיכאל, סטודנט בשנה שלישית להנדסת מערכות תכנה ומידע באוניברסיטת בן גוריון.
@@ -32,7 +30,8 @@
 <br/>
 התחביבים שלי (חוץ מללמוד ;-)) הם:
 <br/>
-<ul>
+<div class="parent">  
+<ul id="hob1">
   <li>
     כמעט כל סוגי הספורט שיש: מכדורסל, כדרוגל וטניס ועד חדר כושר.
   </li>
@@ -43,33 +42,24 @@
     להיות עם חברים ולעשות כל מיני דברים.
   </li>
 </ul>
+</div>
 כיום אני עובד כעוזר מחקר של ד"ר רוני שטרן במחקר על אנומליות בבסיסי נתונים.
 <br/>
 במהלך הלימודים בתואר התעניינתי בתחומים של בינה מלאכותית ולמידת מכונה.
-לתחומים אלו השפעה רבה על העתיד של חיי היום-יום של כולנו. 
+לתחומים אלו השפעה רבה על העתיד של חיי היום-יום של כולנו.
+<br/>
+הציפייה העיקרית שלי מהקורס היא להכיר את הטכנולוגיות העיקריות כיום בשוק לפיתוח אתרים. כך אוכל לצבור עוד ידע שיוכל לעזור בקבלה למקומות עבודה.
+</center>
 <br/>
 <br/>
 <br/>
 </section>
 
 <section id="photos" class="section">
+<center>
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<h1>התמונות שלי</h1>
+<h1 align="center">התמונות שלי</h1>
 <br/>
 בחרתי להראות תמונות שלי עם חברים ועוד תמונות מטיולים
 <br/>
@@ -93,21 +83,13 @@
 
 <br/>
 <br/>
+</center>
 </section>
 
 <section id="playlist" class="section">
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<h1>הפלייליסט שלי</h1>
+<h1 align="center">הפלייליסט שלי</h1>
 <br/>
 מוזמנים לשמוע חלק מהשירים האהובים עלי
 <br/>
@@ -119,23 +101,11 @@
 <section id="like" class="section">
 <br/>
 <br/>
+<h1 align="center">Like</h1>
 <br/>
+אם נהנתם מהאתר אנא תנו לייק. מספר גבוה של לייקים יוכל לעזור לנו להמשיך ולתחזק את האתר למענכם.
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-give me a like
-<br/>
-<br/>
+<br/> 
 <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fmichaelmichaelshvili.github.io%2FWDE1%2F&width=100&layout=standard&action=like&size=small&show_faces=true&share=true&height=80&appId" width="1000" height="80" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
 <br/>
 </section>
@@ -143,22 +113,10 @@ give me a like
 <section id="qrcoder" class="section">
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
+<h1 align="center">QR Code</h1>
 scan my code
 <br/>
+<img src="QRCode.png">
 <br/>
 <br/>
 </section>
@@ -189,6 +147,7 @@ ans
 <section id="contact" class="section">
 <br/>
 <br/>
+<h1 align="center">צור קשר</h1>
 <br/>
 <br/>
 <br/>
@@ -198,27 +157,19 @@ ans
 <br/>
 <br/>
 <br/>
+<form action="mailto:michmich@post.bgu.ac.il" method="post" enctype="text/plain">
+  E-mail:<br>
+  <input type="text" name="mail" placeholder="name@domain.com"  ><br>
+  גוף ההודעה:<br>
+  <input type="text" name="comment" size="50"><br><br>
+  <input type="submit" value="Send">
+  <input type="reset" value="Reset">
+  </form>
 <br/>
 <br/>
 <br/>
 <br/>
 <br/>
-contact me
-</head><body><h1>Feedback Form</h1>
-
-  <form method="post" action="send_mail.php">
-  <p>
-  <label>Email 
-  <input type="email" name="email_address" required>
-  </label>
-  </p>
-  <p>
-  <label>Comments
-  <textarea name="comments" maxlength="500" required></textarea>
-  </label>
-  </p>
-  <p><button>Submit the form</button></p>
-  </form></body></html>
 <br/>
 <br/>
 <br/>
