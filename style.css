@@ -3,7 +3,7 @@
 	position: fixed;
 	width: 100%;
 	height: 35px;
-	background: yellowgreen;
+	background: rgb(238, 143, 35);
 }
 
 .parent {
@@ -17,3 +17,17 @@
 	  height: 300%;
 	  width: 10%;
   }
+  h1{
+    padding: 0;
+	text-align: center;
+   	border-bottom: 3px solid rgb(2, 59, 214); 
+   	line-height: 0px;
+   	margin: 10px 0 20px; 
+}
+h1 span { 
+    background:rgb(255, 255, 255); 
+    padding:0 20px; 
+}
+a:hover{
+	background : rgb(201, 113, 12);
+}
